@@ -1,0 +1,12 @@
+{
+    "image":"mcr.microsoft.com/devcontainers/universal:2",
+    "forwardPorts": [5173],
+    "portsAttributes": {
+      "5173": {
+        "label": "Vite App",
+        "onAutoForward": "openPreview"
+      }
+    },
+    "updateContentCommand": "npm install",
+    "postAttachCommand": "npm run dev",
+}
